@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./table.css">
+    <title>登录成功页面</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="tips">
+                <div class="left">当前用户：<span class="username"></span></div>
+                <div class="right">
+                    <div class="btn btn-warn btn-middle btn-logout">注销</div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="table-content">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                            <th>#</th>
+                            <th>用户名</th>
+                            <th>邮箱</th>
+                            <th>注册时间</th>
+                            <th>最近登录时间</th>
+                            <th>登录次数</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./utils/utils.js"></script>
+    <script src="./utils/logManager.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
