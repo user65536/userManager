@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input:focus {
+  outline: none;
+}
+.wrapper .item {
+  margin: 16px 0;
+}
+.wrapper .form p {
+  display: flex;
+}
+.wrapper .form .insert span {
+  text-align: right;
+  color: #424242;
+  padding-right: 20px;
+  line-height: 31px;
+  flex: 3;
+}
+.wrapper .form .insert input {
+  flex: 7;
+  padding: 2px 5px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: border-color ease-in-out 0.15s,
+              box-shadow ease-in-out 0.15s
+}
+.wrapper .form .msg template {
+  display: inline;
+  padding-right: 20px;
+  flex: 3;
+}
+.wrapper .form .msg .help-block {
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  flex: 7;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: arial;
+}
+.wrapper .form .default .insert input{
+  border: 1px solid #ccc;
+}
+.wrapper .form .default .msg .help-block{
+  color: #424242;
+}
+.wrapper .form .default .insert input:focus {
+  border-color: #66afe9;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6)
+}
+.wrapper .form .with-success .insert input {
+  border:1px solid #3c763d;
+}
+.wrapper .form .with-success .msg .help-block{
+  color: #3c763d;
+}
+.wrapper .form .with-success .insert input:focus {
+  border-color: #2b542c;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #67b168;
+}
+.wrapper .form .with-error .insert input {
+  border: 1px solid #a94442;
+}
+.wrapper .form .with-error .msg .help-block{
+  color: #a94442
+}
+.wrapper .form .with-error .insert input:focus {
+  border-color: #843534;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ce8483
+}
+.wrapper .form .checkbox {
+  height: 24px;
+  margin-left: 40px;
+}
+.wrapper .form .checkbox input{
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  line-height: normal;
+  transform: translateY(3px)
+}
+.wrapper .form .checkbox .remember{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+}
+.wrapper .form .checkbox .register{
+  margin-left: 30px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+}
+.wrapper .form .checkbox .register a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.wrapper .form .checkbox .register a:hover {
+  color: #23527c;
+}
+.wrapper .form .submit {
+  width: 98%;
+  height: 40px;
+  background-color: #09bb07;
+  border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 17px;
+}
+.wrapper .form .submit:focus {
+  outline: none;
+  background-color: #09a106;
+}
+.wrapper .form .submit:hover {
+  color: #9dd69c
+}
+
+
+
+
+
+
+
+
+
+;
